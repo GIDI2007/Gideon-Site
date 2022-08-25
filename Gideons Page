@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Gideon Website</title>
+        <style>
+         .footer{
+          text-align: center;
+          padding: 10px;
+          background-color: rgb(5, 214, 33);
+         }
+         .table, th, td{
+            width:100% ;
+            border: 3px solid aqua;
+            border-collapse: collapse;
+         }
+         dt{
+            font-weight: bold;
+            font-style:italic ;
+            font-size:2cm;
+         }
+         dd{
+            font-style: italic;
+            font-size: 0.5cm;
+         }
+         section{
+            padding: 10px;
+            border:1px solid aqua;
+            margin:10px;
+         }
+         ul{
+            font-size: 0.5cm;
+         }
+
+
+
+        </style>
+    </head> 
+        <body>
+            <header class="header" style="color:aqua"><h1>Gideon Website</h1></header
+                <nav class="navbar">
+                    <ul>
+                      <li><a href=#Experience>Experience</a></li>
+                      <li><a href=#Education>Education</a></li>
+                      <li><a href=#Interests>Interests</a></li>
+                      <li><a href=#Skills>Skills</a></li>
+                      <li><a href=#Contact>Contact</a></li>  
+                    </ul>
+                </nav> 
+                <article><p><h4 style="color:aqua">Welcome to my website. Hope you enjoy it.</h4> </p><hr>
+                    <p style="color:aqua"> My name is Gideon Bestman Udofia</p>
+                </article>
+                <img width="500px" src="https://scontent.fabb1-2.fna.fbcdn.net/v/t1.6435-9/117399966_326092408798493_6990221570988843742_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=174925&_nc_eui2=AeEGQmk8Uk8zKJKnfrKj3i8LcwHed7HQ1ytzAd53sdDXK_mcpmDUQcFbmCQjttie0a2u2eAMAGBZ9oLBKn62QEIF&_nc_ohc=XojzzjFsrFgAX9wP8jx&_nc_ht=scontent.fabb1-2.fna&oh=00_AT_amH-BqBIetUVSxDzieXyNzDmyLTC6d1YTYWO2_ujFbw&oe=632BA285">
+                <section class="Experience">
+                    <h2>Experience</h2>
+                    <table>
+                        <colgroup>
+                          <col span="1" style="Background-color:aqua";>  
+                        </colgroup>
+                        <tr>
+                            <th>Work Place </th>
+                            <th>Office Section</th>
+                            <th>Years</th>
+                        </tr>
+                        <tr>
+                            <td>GidiKeys Limited.co</td>
+                            <td>Managing Director</td>
+                            <td>1-7</td>
+                        </tr>
+                        <tr>
+                            <td>Godswill Game Industry.co</td>
+                            <td> HOD Programmer</td>
+                            <td>1-2</td>
+                        </tr>
+                    </table>
+
+                </section>
+                <section id="Education">
+                    <h2>Education</h2>
+                    <dl>
+                        <dt>Secondary School</dt>
+                        <dd>Ladybird Educational Center</dd>
+                        <dt>My University</dt>
+                        <dd>Redeemmers University</dd>
+                    </dl>
+
+                </section>
+                <section id="Interests">
+                    <h2>Interests</h2>
+                    <ul>
+                        <li>Web Designing</li>
+                        <li>Gaming</li>
+                        <li>The kingdom Work</li>
+                    </ul>
+
+                </section>
+                <section id="Skills">
+                    <h2>Skills</h2>
+                    <ol>
+                        <li> Goalkeeping</li>
+                    </ol>
+
+                </section>
+                <section id="Contact">
+                    <h2>Contact</h2>
+                    <ul>
+                    <li>Facebook</li>
+                    <li>Whatsapp</li>
+                    <li>twitter</li>
+                    </ul>
+                    <p>
+                        <h4>Email me<a href="mailto:donbestlaw@gmail.com">donbestlaw@gmail.com</a></h4>
+                    </p>
+
+                </section> 
+                <footer class="footer">Copyright (c) Gideon Udofia Content please contact me to find out more</footer>
+             </body>
+
+
+
+             </html>
